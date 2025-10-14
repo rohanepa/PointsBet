@@ -9,7 +9,7 @@ You may make any improvements you see fit, for example:
 - Fixing typos
 - Any other light-weight optimisation
 
-```
+```csharp
 public class StringFormatter
 {
     //Code to improve
