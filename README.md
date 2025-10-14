@@ -31,7 +31,7 @@ public class StringFormatter
 ```
 
 ## Changes Made to improve the code
-
+Link to code: https://github.com/rohanepa/PointsBet/blob/main/PointsBet/StringFormatter.cs
 - Method name changed from `ToCommaSepatatedList` to `ToCommaSeparatedList` to fix the typo.
 - Use of StringBuilder was replaced with `String.Join` as it is specifically implemented for join operations and optimized for that. StringBuilder is suitable for more complex string formatting operations.
 - Set the default value of the quote to be empty string to make it optional when calling the function without a quote.
