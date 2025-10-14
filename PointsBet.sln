@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointsBet", "PointsBet\PointsBet.csproj", "{DD9CE952-0552-4A95-BD93-39AE4B49E432}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6D8E7357-1637-4E26-8FE8-07612A9A97ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PointBetTests", "PointBetTests\PointBetTests.csproj", "{F6743E27-E984-4956-A569-3791972CB560}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD9CE952-0552-4A95-BD93-39AE4B49E432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9CE952-0552-4A95-BD93-39AE4B49E432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9CE952-0552-4A95-BD93-39AE4B49E432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9CE952-0552-4A95-BD93-39AE4B49E432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6743E27-E984-4956-A569-3791972CB560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6743E27-E984-4956-A569-3791972CB560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6743E27-E984-4956-A569-3791972CB560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6743E27-E984-4956-A569-3791972CB560}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6743E27-E984-4956-A569-3791972CB560} = {6D8E7357-1637-4E26-8FE8-07612A9A97ED}
+	EndGlobalSection
+EndGlobal
