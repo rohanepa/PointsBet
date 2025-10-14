@@ -42,4 +42,6 @@ Link to code: https://github.com/rohanepa/PointsBet/blob/main/PointsBet/StringFo
 
 ## Additional Notes
 
-Exception handling can be done specifically for Out of Memory issues and other unexpected exceptions. But more information needed on how to behave given there is an unexpected exception.
+- Exception handling can be done specifically for Out of Memory issues and other unexpected exceptions. But more information needed on how to behave given there is an unexpected exception.
+- A console application and a test project has been created for testing purposes.
+- Unit tests are done using xunit.
