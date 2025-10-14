@@ -1,9 +1,5 @@
-using System.Text;
-
 namespace PointsBet;
-
-
-public class StringFormatter
+public static class StringFormatter
 {
     public static string ToCommaSeparatedList(string[] items, string quote = "")
     {

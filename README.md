@@ -34,7 +34,7 @@ public class StringFormatter
 Link to code: https://github.com/rohanepa/PointsBet/blob/main/PointsBet/StringFormatter.cs
 - Method name changed from `ToCommaSepatatedList` to `ToCommaSeparatedList` to fix the typo.
 - Use of StringBuilder was replaced with `String.Join` as it is specifically implemented for join operations and optimized for that. StringBuilder is suitable for more complex string formatting operations.
-- Set the default value of the quote to be empty string to make it optional when calling the function without a quote.
+- Set the default value of the quote parameter to be empty string to make it optional when calling the function without a quote.
 - `for` loop has been removed and replaced with `IEmunarrable.Select` to make it less code lines and readable. Having said that `for` loop gives more performance if the list has a large number of items.
 - String interpolation is used instead of `String.Format` as it is more cleaner and newer way to do it.
 - Parameters are validated for nulls and empty lists to return early without performing the operations. This would reduce unexpected exceptions.
